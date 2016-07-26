@@ -31,7 +31,7 @@ plot_graph <- function(d,plot_name){
      lines(as.integer(d$size),d$NP_CSV,type="b",col="violet",lwd=2)
      lines(as.integer(d$size),d$NPY,type="b",col="orange",lwd=2)
      lines(as.integer(d$size),d$NPZ,type="b",col="black",lwd=2)
-     legend("topleft",'groups', c("DF","DT","PD","NP_CSV","NPY","NPZ"),lty=c(1,1), lwd=c(2.5,2.5),col=c("red","blue","green","violet","orange","black"))
+     legend("topleft",'groups', c("R-DataFram","R-DataTable","Pandas","NumPy_CSV","NumPy-NPY Files","NumPy-NPZ Files"),lty=c(1,1), lwd=c(2.5,2.5),col=c("red","blue","green","violet","orange","black"))
      title(main=plot_name,outer = TRUE)
      dev.off()
      

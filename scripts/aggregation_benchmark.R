@@ -69,7 +69,7 @@ plot_graph <- function(d,plot_name){
      lines(as.integer(d$size),d$PD_string,type="b",col="green", lwd=2)
      lines(as.integer(d$size),d$PD_num,type="o", lty=2,col="green", lwd=2)
      lines(as.integer(d$size),d$NP,type="o", lty=2,col="violet", lwd=2)
-     legend("topleft",'groups', c("DF","DT","PD","NP"),lty=c(1,1), lwd=c(2.5,2.5),col=c("red","blue","green","violet"))
+     legend("topleft",'groups', c("R-data.frame","R-data.table","Pandas","NumPy"),lty=c(1,1), lwd=c(2.5,2.5),col=c("red","blue","green","violet"))
      dev.off()
      
 }
