@@ -16,6 +16,6 @@ Popular data tools that we use extensively within the organisation were consider
 Please see Wiki for setting up and running benchmarks
 
 ## I have a question/suggestion
-All suggestions and questions are welcome. 
+All suggestions and questions are welcome. You can write to any of the members directly or raise an issue on github.
 
 
