@@ -25,7 +25,7 @@ benchmark <- function(file_name){
 
 plot_graph <- function(d,plot_name){
      png(paste(plot_name,".png",sep=""))
-     plot(as.integer(d$size),d$DF,xlab="n",ylab="time taken (secs)", type="b", col="red",log="x", lwd=2)
+     plot(as.integer(d$size),d$DF,xlab="n",ylab="time taken (secs)", type="b", col="red", lwd=2)
      lines(as.integer(d$size),d$DT,type="b",col="blue",lwd=2)
      lines(as.integer(d$size),d$PD,type="b",col="green",lwd=2)
      lines(as.integer(d$size),d$NP_CSV,type="b",col="violet",lwd=2)

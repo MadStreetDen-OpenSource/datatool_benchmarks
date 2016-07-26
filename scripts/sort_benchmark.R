@@ -63,7 +63,7 @@ benchmark <- function(file_name, timer_func=default_timeit){
 
 plot_graph <- function(d,plot_name){
      png(paste(plot_name,".png",sep=""))
-     plot(as.integer(d$size),d$DF_string,xlab="n",ylab="time taken (secs)", type="b", col="red",log="x", lwd=2)
+     plot(as.integer(d$size),d$DF_string,xlab="n",ylab="time taken (secs)", type="b", col="red", lwd=2)
      lines(as.integer(d$size),d$DF_int,type="o", lty=2,col="red", lwd=2)
      lines(as.integer(d$size),d$DT_string,type="b",col="blue", lwd=2)
      lines(as.integer(d$size),d$DT_int,type="o", lty=2,col="blue", lwd=2)
