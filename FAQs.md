@@ -15,6 +15,7 @@ Popular data tools that we use extensively within the organisation were consider
 
 ## Where is the code for the benchmarks and how to run them
 Please see Wiki for setting up and running benchmarks
+https://github.com/MadStreetDen-OpenSource/datatool_benchmarks/wiki
 
 ## I have a question/suggestion
 All suggestions and questions are welcome. You can write to any of the members directly or raise an issue on github.
