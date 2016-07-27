@@ -4,13 +4,14 @@ A Data tool is a piece of software that you'd use to explore and manipulate data
 
 ## What are the data tools considered for benchmark
 Popular data tools that we use extensively within the organisation were considered for the benchmarks. They are listed below - 
-* R - data.table
-* R - data.frame
-* NumPy
-* Pandas
-* Spark - RDD
-* Spark - DF
-* Spark with Hive 
+* R - data.table (R version 3.3.1)
+* R - data.frame (R version 3.3.1)
+* NumPy (1.11)
+* Pandas (0.18.1)
+* Spark - RDD (Spark 1.6.1)
+* Spark - DF (Spark 1.6.1)
+* Spark with Hive (Spark 1.6.1)
+* Redshift
 
 ## Where is the code for the benchmarks and how to run them
 Please see Wiki for setting up and running benchmarks
